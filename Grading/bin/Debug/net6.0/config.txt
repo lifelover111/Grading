@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigSettings>
+  <!-- filename - это имя таблицы excel, из которой читаются данные -->
+  <filename>data.xlsx</filename>
+  <!-- offsetThreshold - баллы, которые добавятся в случае недобора менее чем на offsetThreshold баллов -->
+  <offsetThreshold>10</offsetThreshold>
+  <!-- pointsForTasks - баллы, которые начисляются за выполнение заданий. Остальные - за посещаемость -->
+  <pointsForTasks>60</pointsForTasks>
+  <!-- outputFilename - имя файла для записи -->
+  <outputFilename>datanew.xlsx</outputFilename>
+</ConfigSettings>
